@@ -12,6 +12,10 @@
 		7A773918214B5DAA008F361F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A773916214B5DAA008F361F /* Main.storyboard */; };
 		7A77391A214B5DAB008F361F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A773919214B5DAB008F361F /* Assets.xcassets */; };
 		7A77391D214B5DAB008F361F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A77391B214B5DAB008F361F /* LaunchScreen.storyboard */; };
+		7A773926214B5E6C008F361F /* MQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A773924214B5E6C008F361F /* MQTableViewCell.swift */; };
+		7A773927214B5E6C008F361F /* MQTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A773925214B5E6C008F361F /* MQTableViewCell.xib */; };
+		7A77392A214B5F59008F361F /* ZXCountDownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A773929214B5F59008F361F /* ZXCountDownManager.swift */; };
+		7A77392C214B89FA008F361F /* MQTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77392B214B89FA008F361F /* MQTimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7A773919214B5DAB008F361F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A77391C214B5DAB008F361F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A77391E214B5DAB008F361F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A773924214B5E6C008F361F /* MQTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTableViewCell.swift; sourceTree = "<group>"; };
+		7A773925214B5E6C008F361F /* MQTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQTableViewCell.xib; sourceTree = "<group>"; };
+		7A773929214B5F59008F361F /* ZXCountDownManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXCountDownManager.swift; sourceTree = "<group>"; };
+		7A77392B214B89FA008F361F /* MQTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,24 @@
 			children = (
 				7A773912214B5DAA008F361F /* AppDelegate.swift */,
 				7A773914214B5DAA008F361F /* ViewController.swift */,
+				7A77392B214B89FA008F361F /* MQTimeModel.swift */,
+				7A773924214B5E6C008F361F /* MQTableViewCell.swift */,
+				7A773925214B5E6C008F361F /* MQTableViewCell.xib */,
+				7A773928214B5F59008F361F /* ZXCountDownManager */,
 				7A773916214B5DAA008F361F /* Main.storyboard */,
 				7A773919214B5DAB008F361F /* Assets.xcassets */,
 				7A77391B214B5DAB008F361F /* LaunchScreen.storyboard */,
 				7A77391E214B5DAB008F361F /* Info.plist */,
 			);
 			path = MQCountDownCell;
+			sourceTree = "<group>";
+		};
+		7A773928214B5F59008F361F /* ZXCountDownManager */ = {
+			isa = PBXGroup;
+			children = (
+				7A773929214B5F59008F361F /* ZXCountDownManager.swift */,
+			);
+			path = ZXCountDownManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A77391D214B5DAB008F361F /* LaunchScreen.storyboard in Resources */,
+				7A773927214B5E6C008F361F /* MQTableViewCell.xib in Resources */,
 				7A77391A214B5DAB008F361F /* Assets.xcassets in Resources */,
 				7A773918214B5DAA008F361F /* Main.storyboard in Resources */,
 			);
@@ -136,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A773915214B5DAA008F361F /* ViewController.swift in Sources */,
+				7A77392C214B89FA008F361F /* MQTimeModel.swift in Sources */,
+				7A77392A214B5F59008F361F /* ZXCountDownManager.swift in Sources */,
 				7A773913214B5DAA008F361F /* AppDelegate.swift in Sources */,
+				7A773926214B5E6C008F361F /* MQTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
